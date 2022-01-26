@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0c6fac927a03cd45a3be557c95ecf4b, type: 3}
+  m_Name: Goblin Cleaver
+  m_EditorClassIdentifier: 
+  itemName: Goblin Cleaver
+  prefab: {fileID: 7647059599398578096, guid: e1c9d44d4a331ef4384d4c1a7ae314cd, type: 3}

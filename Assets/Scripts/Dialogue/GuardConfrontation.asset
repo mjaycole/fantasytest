@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7249305539873776068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb8e7fc7b49fa1489c891ddd62f3a4d, type: 3}
+  m_Name: 3f8f6587-4930-4abb-875a-6dd428f0b8e5
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Let's go
+  children: []
+  nodeRect:
+    serializedVersion: 2
+    x: 615
+    y: 223
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-4246769892440218840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb8e7fc7b49fa1489c891ddd62f3a4d, type: 3}
+  m_Name: 0f347497-d559-4d80-a1e2-8485477c4535
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Ahhh, a bribe
+  children: []
+  nodeRect:
+    serializedVersion: 2
+    x: 615
+    y: 326
+    width: 200
+    height: 100
+  onEnterAction: TestObjective
+  onExitAction: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0f73a54d0104f248a1beba949625e16, type: 3}
+  m_Name: GuardConfrontation
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 6087738000519784366}
+  - {fileID: 8820596232869078895}
+  - {fileID: 5520639953405622217}
+  - {fileID: 8582816655812248178}
+  - {fileID: 1162556945113194222}
+  - {fileID: -7249305539873776068}
+  - {fileID: -4246769892440218840}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1162556945113194222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb8e7fc7b49fa1489c891ddd62f3a4d, type: 3}
+  m_Name: 57742035-1c8b-46d5-aacf-d4e9f8b3d9b7
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Then pay with your blood!
+  children: []
+  nodeRect:
+    serializedVersion: 2
+    x: 618
+    y: 120
+    width: 200
+    height: 100
+  onEnterAction: Aggro
+  onExitAction: 
+--- !u!114 &5520639953405622217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb8e7fc7b49fa1489c891ddd62f3a4d, type: 3}
+  m_Name: a06469f0-b94e-4a47-b2d3-93cdc35422d5
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Go to prison
+  children:
+  - 3f8f6587-4930-4abb-875a-6dd428f0b8e5
+  nodeRect:
+    serializedVersion: 2
+    x: 365
+    y: 223
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &6087738000519784366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb8e7fc7b49fa1489c891ddd62f3a4d, type: 3}
+  m_Name: 11faec13-6f59-4bc5-8eba-dd946a91e05b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Stop, thief!
+  children:
+  - bf07fc58-4257-4283-bd1a-01f785c6d113
+  - a06469f0-b94e-4a47-b2d3-93cdc35422d5
+  - 20610df4-5001-4043-ae46-80571125d9fe
+  nodeRect:
+    serializedVersion: 2
+    x: 117
+    y: 222
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &8582816655812248178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb8e7fc7b49fa1489c891ddd62f3a4d, type: 3}
+  m_Name: 20610df4-5001-4043-ae46-80571125d9fe
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Pay gold
+  children:
+  - 0f347497-d559-4d80-a1e2-8485477c4535
+  nodeRect:
+    serializedVersion: 2
+    x: 360
+    y: 326
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: Lose Gold
+--- !u!114 &8820596232869078895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb8e7fc7b49fa1489c891ddd62f3a4d, type: 3}
+  m_Name: bf07fc58-4257-4283-bd1a-01f785c6d113
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Resist arrest
+  children:
+  - 57742035-1c8b-46d5-aacf-d4e9f8b3d9b7
+  nodeRect:
+    serializedVersion: 2
+    x: 367
+    y: 121
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 

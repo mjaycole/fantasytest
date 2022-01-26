@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5883163866360545089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb8e7fc7b49fa1489c891ddd62f3a4d, type: 3}
+  m_Name: 6f6baabe-b24c-495b-89d0-a8e86ccfc088
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: What are you doing here?
+  children:
+  - a98ca948-6a13-4d40-9f01-0295ae38bd02
+  nodeRect:
+    serializedVersion: 2
+    x: 349
+    y: 245
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: GiveQuest
+--- !u!114 &-5787883274895937684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb8e7fc7b49fa1489c891ddd62f3a4d, type: 3}
+  m_Name: a98ca948-6a13-4d40-9f01-0295ae38bd02
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I was searching for the crown of this king. Actually, would you mind fetching
+    it for me?
+  children: []
+  nodeRect:
+    serializedVersion: 2
+    x: 599
+    y: 245
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0f73a54d0104f248a1beba949625e16, type: 3}
+  m_Name: Opening
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 1393388497813101713}
+  - {fileID: 5314016359302331691}
+  - {fileID: -5883163866360545089}
+  - {fileID: -5787883274895937684}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1393388497813101713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb8e7fc7b49fa1489c891ddd62f3a4d, type: 3}
+  m_Name: a09794ed-1095-46f5-953f-977ac8dc9234
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Welcome, stranger.
+  children:
+  - 50bdab92-9df5-41e5-9623-d720b90cde3a
+  - 6f6baabe-b24c-495b-89d0-a8e86ccfc088
+  nodeRect:
+    serializedVersion: 2
+    x: 86
+    y: 227
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &5314016359302331691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb8e7fc7b49fa1489c891ddd62f3a4d, type: 3}
+  m_Name: 50bdab92-9df5-41e5-9623-d720b90cde3a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Who are you?
+  children: []
+  nodeRect:
+    serializedVersion: 2
+    x: 349
+    y: 130
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
